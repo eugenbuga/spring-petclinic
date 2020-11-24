@@ -275,8 +275,9 @@
   </pluginRepositories>
    <distributionManagement>
    <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://10.0.0.80:8081/repository/maven-snapshots/</url>
-   </snapshotRepository>
+        <id>snapshots</id>
+        <name>a0tdtvunwws8e-artifactory-primary-0-snapshots</name>
+        <url>https://ebugatest.jfrog.io/artifactory/test-repo</url>
+    </snapshotRepository>
    </distributionManagement>
 </project>
