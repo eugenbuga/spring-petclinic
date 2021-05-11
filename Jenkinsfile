@@ -26,7 +26,7 @@ pipeline {
       }
       stage('deploy') {
           steps {
-              sh 'mvn deploy'
+              sh 'mvn install'
           }
       }
     }//stagges
